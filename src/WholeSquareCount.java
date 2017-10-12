@@ -18,7 +18,7 @@ public class WholeSquareCount {
             double sqrt = Math.sqrt(i);
             if (sqrt % 1 == 0) {        //Root of the first found square
                 while(Math.pow(sqrt++, 2) <= B)
-                    count++;
+                    ++count;
                 break;
             }
         }
